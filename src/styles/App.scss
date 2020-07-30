@@ -1,0 +1,15 @@
+@import "../components/usersListComponent/usersList/UsersList";
+@import "../components/Home/Home";
+@import "../components/Navigation/Navigation";
+
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+body {
+  background-color: #E5E5E5;
+}
+
+p::selection,
+a::selection {
+  background-color: black;
+  color: white;
+}

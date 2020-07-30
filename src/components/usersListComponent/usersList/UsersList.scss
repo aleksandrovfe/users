@@ -1,0 +1,71 @@
+.list-users {
+  position: relative;
+  margin: 50px auto;
+  font-family: 'Oregano', cursive;
+  max-width: 700px;
+  width: 100%;
+  overflow: hidden;
+
+  &__wrapper {
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+    z-index: 2;
+    background-color: rgba(255,255,255, 0.8);
+
+    &:hover {
+      background-color: #0097ff;
+      color: white;
+    }
+  }
+
+  &__item {
+    font-size: 25px;
+    max-width: 150px;
+    width: 100%;
+    padding: 20px 40px;
+  }
+
+  &__dob {
+    cursor: pointer;
+    padding-left: 10px;
+    color: black;
+
+    &--green {
+      background-color: lightgreen;
+    }
+    &--blue {
+      background-color: lightblue;
+    }
+    &--gray {
+      background-color: lightgray;
+    }
+    &--red {
+      background-color: lightcoral;
+    }
+  }
+
+  &__background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 520px) {
+  .list-users {
+    margin: 60px 0;
+
+    &__item {
+      font-size: 17px;
+      max-width: 100px;
+      padding: 10px;
+    }
+  }
+}
