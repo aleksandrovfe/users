@@ -21,6 +21,7 @@
     padding: 30px 50px;
     letter-spacing: 1px;
     border-radius: 10px;
+    z-index: 2;
   }
 
   &__greeting-wrapper {
@@ -28,6 +29,7 @@
     text-align: center;
     padding: 30px 50px;
     border-radius: 10px;
+    z-index: 2;
 
     p {
       margin-bottom: 10px;
