@@ -3,7 +3,7 @@ import classnames from 'classnames'
 
 export const UsersList = ({ getDob, stylesForDate, showUsersWithSameDob, usersData }) => (
     <div className="list-users">
-        <img className="background" src="./assets/img2.jpg" alt="background"/>
+        <img className="list-users__background" src="./assets/img2.jpg" alt="background"/>
         {usersData.map(el => (
             <div key={el.id} className="list-users__wrapper">
                 <p className="list-users__item">{el.firstName}</p>
