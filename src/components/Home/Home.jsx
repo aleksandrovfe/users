@@ -2,6 +2,7 @@ import React from "react";
 
 export const Home = () => (
     <div className="home">
+        <img className="background" src="./assets/img.jpg" alt="background"/>
         <div className="home__greeting-wrapper">
             <p>Hello, I am glad to see you here</p>
             <p>I hope you appreciate my work</p>
